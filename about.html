@@ -4,30 +4,39 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./stylesheet.css">
     <title>learn html</title>
 </head>
 <body>
     <header>
-        <h1>learn html</h1>
-        <img src="html_img.png" alt="html5">
+        <img id="img_design" src="html_img.png" alt="html5"  >
+        <h1 class="header">learn html</h1>
         <nav>
             <div class="navebar_container">
                 <ul>
-                <li><a href="index.html">home</a></li>
-                <li><a href="about.html">about</a></li>
+                    <li><a href="index.html">home</a></li>
+                    <li></li><a href="about.html">about</a></li>
                 </ul>
             </div>
         </nav>
+
     </header>
     <main>
-        <section>
-            <div class="">
+
+        <section class="section" style="border:2px solid black">
+          
+            <div class="image_continer">
+                <img src="profile.png" alt="prophile photo">
+            </div>
+
+            <div class="about_continer">
                 <h3>about me</h3>
                 <p> I'm abdelrahman i start learn softwear developer</p>
             </div>
+          
         </section>
         <section>
-            <div class="">
+            <div class="contact_me">
                 <form>
                     <label for="name"> name:</label>
                     <input type="text" ><br>
@@ -35,7 +44,7 @@
                     <input type="email"><br>
                     <label for="message">message:</label>
                     <textarea name="message"></textarea><br>
-                    <input type="submit" value="Submit">  
+                    <input class="submit" type="submit" value="Submit">  
                 </form>
             </div>
         </section>
