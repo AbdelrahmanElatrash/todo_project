@@ -36,6 +36,6 @@ while(inputAge <= 0 ){
 
 var confirmMessage = confirm("confirem welcome message"); 
 
-if (!(confirmMessage)){
+if (confirmMessage){
     alert (`hello ${title} ${inputName}`);
 }
